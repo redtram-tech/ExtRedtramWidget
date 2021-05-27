@@ -13,7 +13,7 @@ export function ExtRedtramWidget(props: IProps): React.ReactNode {
         'data-blockid': blockId,
         'data-ver': ver,
         'data-width': width = '100%',
-        'data-height': height = '300'
+        'data-height': height = '350'
     } = props;
 
     const html = `<div class="r${Number(blockId)}" id="abba" idn="${Number(blockId)}"></div>` +
